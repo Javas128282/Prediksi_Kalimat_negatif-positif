@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 stopwords_indonesia = stopwords.words('indonesian')
 
-# Dataset kecil (termasuk kalimat target)
+# Dataset kecil
 corpus = [
     "Saya sangat puas dengan layanan layanan ini",
     "Makanan di restoran ini enak sekali",
